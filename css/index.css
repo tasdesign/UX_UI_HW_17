@@ -15,8 +15,8 @@
 
 body {
   background-color: var(--purple);
-  background: linear-gradient(180deg, #7F26EA 0%, #FF89D8 100%);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(90deg, #7F26EA 0%, #FF89D8 100%);
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   color: var(--white);
   margin: 0;
@@ -73,6 +73,7 @@ ul {
   display: block;
   padding: 1.875rem;
   color: var(--white);
+  font-weight: bold;
 }
 
 .menu a:hover {
@@ -89,7 +90,7 @@ ul {
   cursor: pointer;
   float: right;
   padding: 2.5rem 1.25rem;
-}/* Style label tag */
+}
 
 .hamb-line {
   background: var(--white);
@@ -98,7 +99,7 @@ ul {
   position: relative;
   width: 1.5rem;
 
-} /* Style span tag */
+} 
 
 .hamb-line::before,
 .hamb-line::after{
@@ -305,10 +306,48 @@ line-height: 200%;
   overflow: auto;
   margin: 5%;
   padding: 5%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.5rem;
+
 }
 
 .heroImg,
 .heroText {
+  margin: 0;
+}
+
+.heroHeading {
+  align-self: stretch; 
+  color: white; 
+  font-size: 6rem; 
+  font-family: Carter One; 
+  font-weight: 400; 
+  line-height: 6.6rem; 
+  word-wrap: break-word;
+}
+
+.heroSubhead {
+  align-self: stretch; 
+  color: white; 
+  font-size: 1.25rem; 
+  font-weight: 500; 
+  line-height: 3rem; 
+  word-wrap: break-word;
+}
+
+.heroButton {
+  padding: 12px; 
+  background: #0099FF; 
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25); 
+  border-radius: 0.5rem; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 0.6rem; 
+  display: inline-flex;
+  width: fit-content;
   margin: 0;
 }
 
@@ -335,7 +374,9 @@ line-height: 200%;
   font-weight: 800; 
   line-height: 4.5rem; 
   word-wrap: break-word;
+  font-family: 'Carter One', cursive;
 }
+
 .contactText {
   width: 50rem; 
   text-align: center; 
@@ -369,17 +410,19 @@ line-height: 200%;
   gap: 1.25rem; 
   display: inline-flex
 }  
+
 .Name .Value {
   height: 3.75rem; 
   justify-content: flex-start; 
   align-items: center; 
   display: flex;
+  text-align: start;
 }    
 
 .InputField {
   flex: 1 1 0; 
   height: 3.75rem; 
-  width: 31.25rem;
+  width: 21.875rem;
   padding-top: 0.75rem; 
   padding-bottom: 0.75rem; 
   padding-left: 1rem; 
@@ -399,6 +442,7 @@ line-height: 200%;
 .Email {
   height: 3.75rem; 
   justify-content: flex-start; 
+  text-align: start;
   align-items: center; 
   display: flex;
 }
@@ -407,6 +451,7 @@ line-height: 200%;
 justify-content: flex-start; 
 align-items: center; 
 display: inline-flex;
+text-align: start;
 }
 
 span {
@@ -426,7 +471,7 @@ span .asterisk {
 }
 
 .InputField2 {
-width: 63.75rem; 
+width: 44.75rem;
 height: 9rem; 
 padding-top: 0.75rem; 
 padding-bottom: 0.75rem; 
@@ -537,6 +582,7 @@ display: flex;
     text-align: center; 
     color: white; 
     font-size: 4.5rem; 
+    font-family: 'Carter One', cursive;
     font-weight:bolder; 
     line-height: 4.5rem; 
     word-wrap: break-word; }
@@ -578,9 +624,10 @@ display: flex;
       align-self: stretch;
       color: #7F26EA;
       font-size: 3.125rem;
-      font-weight: bold;
+      font-weight: 500;
       line-height: 4.688rem;
       word-wrap: break-word;
+      font-family: 'Carter One', cursive;
     }
     
     .ProjectDate {
@@ -614,7 +661,7 @@ display: flex;
     .ViewCaseStudy {
       color: white;
       font-size: 1.5rem;
-      font-weight: bold;
+      font-weight: bolder;
       word-wrap: break-word;
       text-align: center;
     }
