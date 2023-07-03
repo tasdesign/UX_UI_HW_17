@@ -508,5 +508,121 @@ display: flex;
   word-wrap: break-word; }
   
   
-  
+  /*My Work*/
+
+  .Projectsection {
+    width: 100%; 
+    height: 100%; 
+    padding-top: 3rem; 
+  padding-bottom: 3rem; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 60px; 
+    display: inline-flex; }
+    
+    .Heading {
+    align-self: stretch; 
+    flex: 1 1 0; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items:flex-start; 
+    gap: 60px; 
+    display: flex; }
+    
+    .ExploreWork {
+    align-self: stretch; 
+    text-align: center; 
+    color: white; 
+    font-size: 72px; 
+    font-weight:bolder; 
+    line-height: 72px; 
+    word-wrap: break-word; }
+    
+    .Projects {
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 100px; 
+    display: flex; }
+    
+    .Project1, .Project2, .Project3, .Project4 {
+      width: 1140px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: white;
+      border-radius: 40px;
+      border: 8px solid;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      display: inline-flex;
+    }
+    
+    .Projecttext {
+      width: 300px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 24px;
+      display: inline-flex;
+      text-align: start;
+      color: black;
+    }
+    
+    .ProjectTitle {
+      align-self: stretch;
+      color: #7F26EA;
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 75px;
+      word-wrap: break-word;
+    }
+    
+    .ProjectDate {
+      align-self: stretch;
+      color: #737373;
+      font-size: 20px;
+      font-weight: 400;
+      word-wrap: break-word;
+    }
+    
+    .ProjectDescription {
+      align-self: stretch;
+      color: black;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      word-wrap: break-word;
+    }
+    
+    .Button {
+      padding: 12px;
+      background: #0099FF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 8px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      display: inline-flex;
+    }
+    
+    .ViewCaseStudy {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      word-wrap: break-word;
+      text-align: center;
+    }
+    
+    .Projectimage {
+      width: 600px;
+      height: 400px;
+      border-radius: 20px;
+    }
+    
   
